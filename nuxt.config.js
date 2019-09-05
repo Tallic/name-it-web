@@ -18,7 +18,7 @@ export default {
     ]
   },
   generate:{
-    dir:"../docs"
+    dir:"docs"
   },
   /*
   ** Customize the progress-bar color
