@@ -4,6 +4,7 @@
       <v-list-item-group>
         <v-list-item v-for="it in downloadLinks"
                      :key="it.extension"
+                     :href="it.link"
                      two-line>
           <v-list-item-icon>
             <v-icon>{{it.icon}}</v-icon>
@@ -31,27 +32,14 @@
                     {
                         extension: ".AppImage",
                         system: "Linux",
-                        icon: "mdi-linux"
+                        icon: "mdi-linux",
+                        link: "https://github.com/Tallic/name-it/releases/download/v0.1.0/name-it-0.1.0.AppImage"
                     },
                     {
                         extension: ".exe",
                         system: "Windows x64",
-                        icon: "mdi-windows"
-                    },
-                    {
-                        extension: ".dmg",
-                        system: "macOS",
-                        icon: "mdi-apple"
-                    },
-                    {
-                        extension: ".deb",
-                        system: "Debian, Ubuntu, ...",
-                        icon: "mdi-ubuntu"
-                    },
-                    {
-                        extension: ".rpm",
-                        system: "Red Hat, Fedora, ...",
-                        icon: "mdi-fedora"
+                        icon: "mdi-windows",
+                        link: "https://github.com/Tallic/name-it/releases/download/v0.1.0/name-it-0.1.0.exe"
                     },
                 ]
             }
