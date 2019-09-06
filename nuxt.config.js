@@ -17,8 +17,11 @@ export default {
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
+  generate:{
+    dir: "../name-it/docs"
+  },
   router: {
-    base: "/name-it-web/"
+    base: "/name-it/"
   },
   /*
   ** Customize the progress-bar color
