@@ -2,7 +2,7 @@
   <v-container fluid class="pb-0">
     <v-row justify="center" align="center" class="mb-5">
       <v-col xs="12" sm="10" md="8" lg="6">
-        <v-img src="/splash.png"></v-img>
+        <v-img src="splash.png"></v-img>
       </v-col>
     </v-row>
     <v-row>
@@ -22,7 +22,7 @@
       </v-col>
       <v-col lg="6" md="8" sm="8" xs="12">
         <v-card elevation="3">
-          <v-img src="/name-it-screen.png"></v-img>
+          <v-img src="name-it-0.png"></v-img>
         </v-card>
       </v-col>
     </v-row>

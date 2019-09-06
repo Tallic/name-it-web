@@ -17,8 +17,8 @@ export default {
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
     ]
   },
-  generate:{
-    dir:"docs"
+  router: {
+    base: "/name-it-web/"
   },
   /*
   ** Customize the progress-bar color
@@ -71,14 +71,6 @@ export default {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      const svgRule = config.module.rules.find(rule => rule.test.test('.svg'));
-
-      svgRule.test = /\.(png|jpe?g|gif|webp)$/;
-
-      config.module.rules.push({
-        test: /\.svg$/,
-        loader: 'vue-svg-loader',
-      });
     }
   }
 }
