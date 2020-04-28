@@ -70,7 +70,7 @@
         <v-card color="purple" dark>
           <v-card-title>Configure</v-card-title>
           <v-card-text class="subtitle-1">
-            Adapt your naming format.
+            Adapt your naming format. Blacklist characters.
           </v-card-text>
         </v-card>
       </v-col>

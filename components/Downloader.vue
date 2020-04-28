@@ -33,13 +33,13 @@
                         extension: ".AppImage",
                         system: "Linux",
                         icon: "mdi-linux",
-                        link: "https://github.com/Tallic/name-it/releases/download/v0.1.0/name-it-0.1.0.AppImage"
+                        link: "https://github.com/Tallic/name-it/releases/download/v0.2.0/name-it-0.2.0.AppImage"
                     },
                     {
                         extension: ".exe",
                         system: "Windows x64",
-                        icon: "mdi-windows",
-                        link: "https://github.com/Tallic/name-it/releases/download/v0.1.0/name-it-0.1.0.exe"
+                        icon: "mdi-microsoft-windows",
+                        link: "https://github.com/Tallic/name-it/releases/download/v0.2.0/name-it-0.2.0.exe"
                     },
                 ]
             }
